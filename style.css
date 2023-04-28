@@ -57,10 +57,10 @@ p {
 .button {
   border-radius: 10px;
   border: none;
-  background: #ff6060;
   cursor: pointer;
 }
 .button_delete {
+  background: #ff6060;
   width: 3rem;
   height: 3rem;
   min-width: 3rem;
@@ -72,7 +72,7 @@ p {
   width: 100%;
   font-size: 3rem;
   padding: 0.2rem 1rem;
-  background: #8bc5ff;
+  border: 3px solid #8bc5ff;
 }
 .button_save:focus {
   background: #63affc;

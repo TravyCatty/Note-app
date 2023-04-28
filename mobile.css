@@ -2,9 +2,14 @@
   #app {
     width: 100vw;
     padding: 1vh 0;
+    height: 90vh;
+  }
+  h1 {
+    font-size: 1.75rem;
   }
   .note {
     padding: 0.2rem;
+    font-size: 1rem;
   }
   #note {
     width: 90vw;
@@ -21,7 +26,15 @@
     font-size: 1rem;
     max-height: 20vh;
   }
+  textarea {
+    font-size: 1rem;
+  }
+  .button_delete {
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+  }
   .button_save {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }/*# sourceMappingURL=mobile.css.map */
