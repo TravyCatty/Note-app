@@ -67,11 +67,8 @@ p {
 		font-size: 3rem;
 		padding: 0.2rem 1rem;
 		border: 3px solid #8bc5ff;
-		&:focus {
-			background: #63affc;
-		}
-		&:hover {
-			background: #63affc;
+		&:active {
+			background-color: #b9dcff;
 		}
 	}
 }

@@ -74,11 +74,8 @@ p {
   padding: 0.2rem 1rem;
   border: 3px solid #8bc5ff;
 }
-.button_save:focus {
-  background: #63affc;
-}
-.button_save:hover {
-  background: #63affc;
+.button_save:active {
+  background-color: #b9dcff;
 }
 
 form {
