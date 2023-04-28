@@ -95,4 +95,32 @@ textarea {
   font-size: 2rem;
   padding: 0.7rem;
   width: 40vw;
+}
+
+@media screen and (max-width: 480px) {
+  #app {
+    width: 100vw;
+    padding: 1vh 0;
+  }
+  .note {
+    padding: 0.2rem;
+  }
+  #note {
+    width: 90vw;
+    padding: 0.1rem;
+  }
+  #notes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    max-width: 80vw;
+    max-height: 80vh;
+  }
+  p {
+    font-size: 1rem;
+    max-height: 20vh;
+  }
+  .button_save {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
