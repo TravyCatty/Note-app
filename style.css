@@ -1,0 +1,79 @@
+body {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+#app {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+
+p {
+  max-width: 50rem;
+  max-height: 10rem;
+  overflow: auto;
+}
+
+.note {
+  border: 2px solid #333;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.button {
+  border-radius: 10px;
+  border: none;
+  background: #ff6060;
+  cursor: pointer;
+}
+.button_delete {
+  width: 3rem;
+  height: 3rem;
+}
+.button_delete:hover {
+  background: #ff4a4a;
+}
+.button_save {
+  width: 100%;
+  font-size: 3rem;
+  padding: 0.2rem 1rem;
+  background: #8bc5ff;
+}
+.button_save:hover {
+  background: #63affc;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+textarea {
+  margin: 0.7rem 0;
+  resize: none;
+  border: 2px solid #333;
+  border-radius: 10px;
+  font-size: 2rem;
+  padding: 0.7rem;
+}/*# sourceMappingURL=style.css.map */
